@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bfd3a10a-fc22-4c17-a776-2c31c1e755ba": {
+      "ProjectGuid": "bfd3a10a-fc22-4c17-a776-2c31c1e755ba",
+      "DisplayName": "crudnet7mvc",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
