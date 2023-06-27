@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev1\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\crudnet7mvc.csproj": {}
+    "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\crudnet7mvc.csproj": {}
   },
   "projects": {
-    "C:\\dev1\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\crudnet7mvc.csproj": {
+    "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\crudnet7mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev1\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\crudnet7mvc.csproj",
+        "projectUniqueName": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\crudnet7mvc.csproj",
         "projectName": "crudnet7mvc",
-        "projectPath": "C:\\dev1\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\crudnet7mvc.csproj",
+        "projectPath": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\crudnet7mvc.csproj",
         "packagesPath": "C:\\Users\\jmunoz\\.nuget\\packages\\",
-        "outputPath": "C:\\dev1\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\obj\\",
+        "outputPath": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\crudnet7mvc\\crudnet7mvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
