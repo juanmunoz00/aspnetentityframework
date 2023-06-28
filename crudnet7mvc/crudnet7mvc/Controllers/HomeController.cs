@@ -30,11 +30,45 @@ namespace crudnet7mvc.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Crear(Contacto contacto)
         {
             if (ModelState.IsValid)
             {
                 _contexto.Contacto.Add(contacto);
+                await _contexto.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View();
+
+        }
+
+        [HttpGet]
+        public IActionResult Editar(int ? id)
+        {
+            if ( id == null )
+            {
+                return NotFound();
+            }
+
+            var contacto = _contexto.Contacto.Find(id);
+            if (contacto == null)
+            {
+                return NotFound();
+            }
+
+            return View(contacto);
+
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Guardar(Contacto contacto)
+        {
+            if (ModelState.IsValid)
+            {
+                _contexto.Contacto.Update(contacto);
                 await _contexto.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
