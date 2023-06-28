@@ -23,6 +23,26 @@ namespace crudnet7mvc.Controllers
             return View(await _contexto.Contacto.ToListAsync());
         }
 
+        [HttpGet]
+        public IActionResult Crear()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Crear(Contacto contacto)
+        {
+            if (ModelState.IsValid)
+            {
+                _contexto.Contacto.Add(contacto);
+                await _contexto.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View();
+
+        }
+
         public IActionResult Privacy()
         {
             return View();
