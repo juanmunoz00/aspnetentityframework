@@ -77,6 +77,58 @@ namespace crudnet7mvc.Controllers
 
         }
 
+        [HttpGet]
+        public IActionResult Detalle(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var contacto = _contexto.Contacto.Find(id);
+            if (contacto == null)
+            {
+                return NotFound();
+            }
+
+            return View(contacto);
+
+        }
+
+        [HttpGet]
+        public IActionResult Borrar(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var contacto = _contexto.Contacto.Find(id);
+            if (contacto == null)
+            {
+                return NotFound();
+            }
+
+            return View(contacto);
+
+        }
+
+        [HttpPost, ActionName("ConfirmaBorrar")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> BorrarContacto(int? id)
+        {
+            var contacto = await _contexto.Contacto.FindAsync(id);
+            if (contacto == null)
+            {
+                return View();
+            }
+
+            //Borrado
+            _contexto.Contacto.Remove(contacto);
+            await _contexto.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
         public IActionResult Privacy()
         {
             return View();

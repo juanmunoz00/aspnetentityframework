@@ -1,6 +1,6 @@
 ﻿@model crudnet7mvc.Models.Contacto
 @{
-    ViewData["Title"] = "Editar Contacto";
+    ViewData["Title"] = "Borrar Contacto";
 }
 
 <h1 class="text-center">Contactos</h1>
@@ -9,42 +9,42 @@
     <div class="offset-12">
         <div class="card border">
             <div class="card-header bg-dark">
-                <h3 class="text-white"><strong>Editar Usuario</strong></h3>
+                <h3 class="text-white"><strong>Borrar Usuario</strong></h3>
             </div>
             <div class="card-body">
-                <form asp-action="Guardar">
+                <form asp-action="ConfirmaBorrar">
 
                     <!--ID del usuario como campo oculto-->
-                    <input type="hidden" asp-for="Id"/>
+                    <input type="hidden" asp-for="Id" />
 
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
                         <label asp-for="Nombre" class="control-label"></label>
-                        <input asp-for="Nombre" class="form-control" placeholder="Nombre" />
+                        <input asp-for="Nombre" class="form-control" readonly />
                         <span asp-validation-for="Nombre" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label asp-for="Telefono" class="control-label"></label>
-                        <input asp-for="Telefono" class="form-control" placeholder="Teléfono" />
+                        <input asp-for="Telefono" class="form-control" readonly />
                         <span asp-validation-for="Telefono" class="text-danger"></span>
                     </div>
 
 
                     <div class="form-group">
                         <label asp-for="Celular" class="control-label"></label>
-                        <input asp-for="Celular" class="form-control" placeholder="Celular" />
+                        <input asp-for="Celular" class="form-control" readonly />
                         <span asp-validation-for="Celular" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label asp-for="Email" class="control-label"></label>
-                        <input asp-for="Email" class="form-control" placeholder="Email" />
+                        <input asp-for="Email" class="form-control" readonly />
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
 
                     <div class="form-group mt-3">
-                        <button type="submit" class="btn btn-primary d-block mx-auto"><i class="bi bi-pencil-fill"></i>Guardar</button>
+                        <button type="submit" class="btn btn-danger d-block mx-auto"><i class="bi bi-eraser-fill"></i> Confirmar</button>
                     </div>
                 </form>
                 <a asp-controller="Home" asp-action="Index">Volver</a>

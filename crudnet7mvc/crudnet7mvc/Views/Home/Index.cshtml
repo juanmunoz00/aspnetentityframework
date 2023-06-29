@@ -28,9 +28,11 @@
                                 <tr>
                                     <th>@Html.DisplayNameFor(m => m.Id)</th>
                                     <th>@Html.DisplayNameFor(m => m.Nombre)</th>
+                                    <!--
                                     <th>@Html.DisplayNameFor(m => m.Telefono)</th>
                                     <th>@Html.DisplayNameFor(m => m.Celular)</th>
                                     <th>@Html.DisplayNameFor(m => m.Email)</th>
+                                    -->
                                     <th>Acciones</th>
                                 </tr>
                             </thead>
@@ -39,13 +41,15 @@
                                     <tr>
                                         <td>@Html.DisplayFor(m => item.Id)</td>
                                         <td>@Html.DisplayFor(m => item.Nombre)</td>
+                                        <!--
                                         <td>@Html.DisplayFor(m => item.Telefono)</td>
                                         <td>@Html.DisplayFor(m => item.Celular)</td>
                                         <td>@Html.DisplayFor(m => item.Email)</td>
+                                        -->
                                         <td>
-                                            <a class="btn btn-warning" asp-action="Editar" asp-route-id="@item.Id"><i class="bi bi-pencil-fill"></i>Editar</a>
-                                            <a class="btn btn-secondary" asp-action="Detalle" asp-route-id="@item.Id"><i class="bi bi-info-circle-fill"></i>Detalle</a>
-                                            <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@item.Id"><i class="bi bi-eraser-fill"></i>Borrar</a>
+                                            <a class="btn btn-warning" asp-action="Editar" asp-route-id="@item.Id"><i class="bi bi-pencil-fill"></i> Editar</a>
+                                            <a class="btn btn-secondary" asp-action="Detalle" asp-route-id="@item.Id"><i class="bi bi-info-circle-fill"></i> Detalle</a>
+                                            <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@item.Id"><i class="bi bi-eraser-fill"></i> Borrar</a>
                                         </td>
                                     </tr>
                                 }
