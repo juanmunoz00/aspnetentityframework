@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C7fx7SeKc3gXC4AwgM62Ec39HHX4KffD5yoqBllZshfMLVwrkk5aOALs5yFWEaeZJts/7uXysDQoz6Amt2b4zg==",
+  "dgSpecHash": "gjA3A6Itu/HJ3ikrp5DEhlHIXJPdbCoE+B1zzWm6HOHHpp/dDF+27yfgMUgM2o4JqUojs6xTLki4icYVFNNu+g==",
   "success": true,
-  "projectFilePath": "C:\\dev1\\aspnetentityframework\\BlogCore\\BlogCore.Utilidades\\BlogCore.Utilidades.csproj",
+  "projectFilePath": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore.Utilidades\\BlogCore.Utilidades.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
