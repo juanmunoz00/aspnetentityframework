@@ -4067,6 +4067,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BlogCore.AccesoDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BlogCore.Models": "1.0.0",
+          "BlogCore.Utilidades": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.8",
+          "Microsoft.EntityFrameworkCore": "7.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.8"
+        },
+        "compile": {
+          "bin/placeholder/BlogCore.AccesoDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.AccesoDatos.dll": {}
+        }
+      },
+      "BlogCore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogCore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.Models.dll": {}
+        }
+      },
+      "BlogCore.Utilidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogCore.Utilidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.Utilidades.dll": {}
+        }
       }
     }
   },
@@ -11760,10 +11797,26 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BlogCore.AccesoDatos/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.AccesoDatos/BlogCore.AccesoDatos.csproj",
+      "msbuildProject": "../BlogCore.AccesoDatos/BlogCore.AccesoDatos.csproj"
+    },
+    "BlogCore.Models/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.Models/BlogCore.Models.csproj",
+      "msbuildProject": "../BlogCore.Models/BlogCore.Models.csproj"
+    },
+    "BlogCore.Utilidades/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.Utilidades/BlogCore.Utilidades.csproj",
+      "msbuildProject": "../BlogCore.Utilidades/BlogCore.Utilidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BlogCore.AccesoDatos >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.8",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.8",
@@ -11808,7 +11861,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj": {
+              "projectPath": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
