@@ -1,0 +1,1 @@
+PM> add-migration MigracionInicial Build started... Build succeeded. To undo this action, use Remove-Migration. PM> remove-migration Build started... Build succeeded. Removing migration '20230705183344_MigracionInicial'. Reverting the model snapshot. Done. PM> update-database
