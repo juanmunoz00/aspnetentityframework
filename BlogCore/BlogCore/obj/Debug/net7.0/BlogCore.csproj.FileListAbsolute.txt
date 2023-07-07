@@ -267,3 +267,10 @@ C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\obj\Debug\
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\obj\Debug\net7.0\BlogCore.pdb
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\obj\Debug\net7.0\BlogCore.genruntimeconfig.cache
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\obj\Debug\net7.0\ref\BlogCore.dll
+C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\System.Web.Mvc.dll
+C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\System.Web.Razor.dll
+C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\System.Web.Helpers.dll
+C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
+C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
+C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\System.Web.WebPages.dll
+C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll

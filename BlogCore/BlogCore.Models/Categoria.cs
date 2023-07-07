@@ -11,9 +11,13 @@ namespace BlogCore.Models
     {
         [Key]
         public int Id { get; set; }
+
+        /// Nombre
         [Required(ErrorMessage = "Ingrese un nombre para la categoría")]
         [Display(Name = "Nombre Categoría")]
         public string Nombre { get; set; }
+
+        /// Orden
         [Display(Name = "Orden de Visualizción")]
         public int? Orden { get; set; }
 
