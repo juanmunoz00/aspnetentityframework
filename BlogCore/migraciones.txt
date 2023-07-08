@@ -188,4 +188,51 @@ Microsoft.EntityFrameworkCore.Database.Command[20101]
       INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
       VALUES (N'20230705232100_CreacionModeloCategorias', N'7.0.8');
 Done.
+PM> add-migration CreacionModeloArticulos
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+PM> update-database
+Build started...
+Build succeeded.
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20230708163325_CreacionModeloArticulos'.
+Applying migration '20230708163325_CreacionModeloArticulos'.
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (273ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Articulo] (
+          [Id] int NOT NULL IDENTITY,
+          [Nombre] nvarchar(max) NOT NULL,
+          [Descripcion] nvarchar(max) NOT NULL,
+          [FechaCreacion] nvarchar(max) NOT NULL,
+          [UrlImage] nvarchar(max) NOT NULL,
+          [CategoriaId] int NOT NULL,
+          CONSTRAINT [PK_Articulo] PRIMARY KEY ([Id]),
+          CONSTRAINT [FK_Articulo_Categoria_CategoriaId] FOREIGN KEY ([CategoriaId]) REFERENCES [Categoria] ([Id]) ON DELETE CASCADE
+      );
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Articulo_CategoriaId] ON [Articulo] ([CategoriaId]);
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+      VALUES (N'20230708163325_CreacionModeloArticulos', N'7.0.8');
+Done.
 PM> 

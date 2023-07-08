@@ -11,6 +11,9 @@ namespace BlogCore.Data
         {
         }
 
+        // Aquí se deben agregar c/u de los modelos
         public DbSet<Categoria> Categoria { get; set; }
+
+        public DbSet<Articulo> Articulo { get; set; }
     }
 }
