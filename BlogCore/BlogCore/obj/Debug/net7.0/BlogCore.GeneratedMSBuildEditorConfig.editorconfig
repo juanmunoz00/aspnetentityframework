@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/dev1/aspnetentityframework/aspnetentityframework/BlogCore/BlogCore/Areas/Admin/Views/Articulos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWN1bG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/dev1/aspnetentityframework/aspnetentityframework/BlogCore/BlogCore/Areas/Admin/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
