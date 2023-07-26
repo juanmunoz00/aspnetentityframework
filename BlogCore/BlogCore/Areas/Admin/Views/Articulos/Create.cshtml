@@ -9,7 +9,9 @@
 <br />
 <h3 class="text-center">Crear una nuevo artículo</h3>
 
-<form method="POST" asp-action="Create">
+
+<!-- multipart/form-data permite la "subida" de archivos -->
+<form method="POST" asp-action="Create" enctype="multipart/form-data" >
 
     <div class="row px-2 offset-1 border">
 
@@ -53,6 +55,19 @@
                 <div class="col-8">
                     @Html.DropDownListFor(m => m.Articulo.CategoriaId, Model.ListaCategorias, "-Favor de elegir una categoría-", 
                     new {@class = "form-control"  })
+                </div>
+            </div>
+
+            &nbsp;
+
+            <!-- Campo: Subir archivo -->
+            <div class="form-group row">
+                <div class="col-4">
+                    <Label asp-for="Articulo.UrlImage"></Label>
+                </div>
+
+                <div class="col-8">
+                    <input type="file" name="archivos" id="subidaArchivo" class="form-control"/>
                 </div>
             </div>
 

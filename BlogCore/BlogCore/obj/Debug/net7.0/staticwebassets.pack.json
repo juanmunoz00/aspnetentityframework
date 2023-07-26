@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\011.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\011.jpeg"
+    },
+    {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\022.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\022.jpeg"
+    },
+    {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\033.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\033.jpeg"
+    },
+    {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\044.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\044.jpeg"
+    },
+    {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\055.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\055.jpeg"
+    },
+    {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\e6eb86c4-d342-472e-935f-ae01ee8ab41b.csv",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\e6eb86c4-d342-472e-935f-ae01ee8ab41b.csv"
+    },
+    {
       "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\js\\articulos.js",
       "PackagePath": "staticwebassets\\js\\articulos.js"
     },
