@@ -1,0 +1,75 @@
+﻿@model BlogCore.Models.ViewModels.ArticuloVM
+
+@{
+    ViewData["Title"] = "Crear Categoría";
+
+}
+
+<br />
+<br />
+<h3 class="text-center">Crear una nuevo artículo</h3>
+
+<form method="POST" asp-action="Create">
+
+    <div class="row px-2 offset-1 border">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-10 offset-1 mt-4">
+
+            <!-- Campo: Nombre -->
+            <div class="form-group row">
+                <div class="col-4">
+                    <label class="col-4">
+                        <Label asp-for="Articulo.Nombre"></Label>
+                    </label>
+                </div>
+
+                <div class="col-8">
+                    <input asp-for="Articulo.Nombre" class="form-control" placeholder="Ingrese el nombre de la categoría" />
+                    <span asp-validation-for="Articulo.Nombre" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Campo: Descripción -->
+            <div class="form-group row">
+                <div class="col-4">
+                    <Label asp-for="Articulo.Descripcion"></Label>
+                </div>
+
+                <div class="col-8">
+                    <input asp-for="Articulo.Descripcion" class="form-control" placeholder="Ingrese el orden de la categoría" />
+                    <span asp-validation-for="Articulo.Descripcion" class="text-danger"></span>
+                </div>
+            </div>
+
+            &nbsp;
+
+            <!-- Campo: Categoría -->
+            <div class="form-group row mt-2">
+                <div class="col-4">
+                    <Label ="Categoría">Categoría</Label>
+                </div>
+
+                <div class="col-8">
+                    @Html.DropDownListFor(m => m.Articulo.CategoriaId, Model.ListaCategorias, "-Favor de elegir una categoría-", 
+                    new {@class = "form-control"  })
+                </div>
+            </div>
+
+            &nbsp;
+
+            <!---->
+            <div class="form-group row mt-2">
+
+                <div class="col-8">
+                    <partial name="_VistaCrearVolver" />
+                </div>
+            </div>
+
+            &nbsp;
+
+        </div>
+
+    </div>
+
+</form>
