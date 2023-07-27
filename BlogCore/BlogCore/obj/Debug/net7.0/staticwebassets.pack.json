@@ -33,8 +33,16 @@
       "PackagePath": "staticwebassets\\imagenes\\articulos\\055.jpeg"
     },
     {
-      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\e6eb86c4-d342-472e-935f-ae01ee8ab41b.csv",
-      "PackagePath": "staticwebassets\\imagenes\\articulos\\e6eb86c4-d342-472e-935f-ae01ee8ab41b.csv"
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\07528b75-977a-489c-a022-5eced1913512.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\07528b75-977a-489c-a022-5eced1913512.jpg"
+    },
+    {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\131a7041-ebce-43c6-8055-90b432c289fe.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\131a7041-ebce-43c6-8055-90b432c289fe.jpg"
+    },
+    {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\a2b17f28-43e2-4ca2-8260-0f3e90c71b5b.png",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\a2b17f28-43e2-4ca2-8260-0f3e90c71b5b.png"
     },
     {
       "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\js\\articulos.js",
