@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\imagenes\\articulos\\055.jpeg"
     },
     {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\41dafdc9-70fb-4af6-b00a-d4ee9a5cd691.png",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\41dafdc9-70fb-4af6-b00a-d4ee9a5cd691.png"
+    },
+    {
       "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\a2b17f28-43e2-4ca2-8260-0f3e90c71b5b.png",
       "PackagePath": "staticwebassets\\imagenes\\articulos\\a2b17f28-43e2-4ca2-8260-0f3e90c71b5b.png"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\js\\sliders.js",
+      "PackagePath": "staticwebassets\\js\\sliders.js"
     },
     {
       "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\lib\\bootstrap\\LICENSE",

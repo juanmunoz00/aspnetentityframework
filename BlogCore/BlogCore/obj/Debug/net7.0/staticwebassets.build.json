@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mlp6VqIHsSY6rrMb319RponIWGp0+5IYqZ6PrcAJpG0=",
+  "Hash": "NYAvHoWweEShf7RvUYQ/CGM2wv9kAZwWHYG3ZmMZ5Ls=",
   "Source": "BlogCore",
   "BasePath": "_content/BlogCore",
   "Mode": "Default",
@@ -170,6 +170,23 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\055.jpeg"
     },
     {
+      "Identity": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\41dafdc9-70fb-4af6-b00a-d4ee9a5cd691.png",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "imagenes/articulos/41dafdc9-70fb-4af6-b00a-d4ee9a5cd691.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\41dafdc9-70fb-4af6-b00a-d4ee9a5cd691.png"
+    },
+    {
       "Identity": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\a2b17f28-43e2-4ca2-8260-0f3e90c71b5b.png",
       "SourceId": "BlogCore",
       "SourceType": "Discovered",
@@ -253,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\js\\sliders.js",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "js/sliders.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sliders.js"
     },
     {
       "Identity": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
