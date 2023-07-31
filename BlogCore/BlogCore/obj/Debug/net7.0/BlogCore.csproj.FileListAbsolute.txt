@@ -1,10 +1,10 @@
+C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.dll
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\appsettings.Development.json
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\appsettings.json
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.staticwebassets.runtime.json
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.exe
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.deps.json
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.runtimeconfig.json
-C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.dll
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.pdb
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\Azure.Core.dll
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore\bin\Debug\net7.0\Azure.Identity.dll

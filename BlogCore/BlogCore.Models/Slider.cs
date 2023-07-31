@@ -21,7 +21,7 @@ namespace BlogCore.Models
         /// Estado
         [Required]
         [Display(Name = "Estado")]
-        public string Estado { get; set; }
+        public bool Estado { get; set; }
 
         /// URL de la imagen
         [DataType(DataType.ImageUrl)]

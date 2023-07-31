@@ -73,7 +73,8 @@ namespace BlogCore.Areas.Admin.Controllers
 
             if (id != null)
             {
-                var slider = _contenedorTrabajo.Articulo.Get(id.GetValueOrDefault());
+                var slider = _contenedorTrabajo.Slider.Get(id.GetValueOrDefault());
+                return View(slider);
             }
 
             return View();
@@ -90,7 +91,7 @@ namespace BlogCore.Areas.Admin.Controllers
                 string rutaPrincipal = _hostingEnvironment.WebRootPath;
                 var archivos = HttpContext.Request.Form.Files;
 
-                var sliderDesdeDb = _contenedorTrabajo.Articulo.Get(slider.Id);
+                var sliderDesdeDb = _contenedorTrabajo.Slider.Get(slider.Id);
 
                 if (archivos.Count() > 0)
                 {
