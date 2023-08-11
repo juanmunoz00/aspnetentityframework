@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/1h205NQhghbPgVN5ew3lQpAgYy5pbF/pcH+0b2kwzQ=",
+  "Hash": "G1jAqTBiAljvb1hOfvA5K15b4/dH/CE/5wk34+2wF0A=",
   "Source": "BlogCore",
   "BasePath": "_content/BlogCore",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\sliders\\a1671a2f-59c8-427c-a167-9df250933651.png"
+    },
+    {
+      "Identity": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\sliders\\f625442d-e39d-420f-9fcf-f8b20d6410ca.jpeg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "imagenes/sliders/f625442d-e39d-420f-9fcf-f8b20d6410ca.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\sliders\\f625442d-e39d-420f-9fcf-f8b20d6410ca.jpeg"
     },
     {
       "Identity": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\js\\articulos.js",

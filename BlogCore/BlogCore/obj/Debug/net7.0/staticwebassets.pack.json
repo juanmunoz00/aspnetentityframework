@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\imagenes\\sliders\\a1671a2f-59c8-427c-a167-9df250933651.png"
     },
     {
+      "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\sliders\\f625442d-e39d-420f-9fcf-f8b20d6410ca.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\sliders\\f625442d-e39d-420f-9fcf-f8b20d6410ca.jpeg"
+    },
+    {
       "Id": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\js\\articulos.js",
       "PackagePath": "staticwebassets\\js\\articulos.js"
     },
