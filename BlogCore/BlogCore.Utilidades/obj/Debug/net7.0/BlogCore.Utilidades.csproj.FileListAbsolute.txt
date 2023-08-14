@@ -10,3 +10,15 @@ C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore.Utilidades
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\refint\BlogCore.Utilidades.dll
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\BlogCore.Utilidades.pdb
 C:\dev1\aspnetentityframework\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\ref\BlogCore.Utilidades.dll
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\bin\Debug\net7.0\BlogCore.Utilidades.deps.json
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\bin\Debug\net7.0\BlogCore.Utilidades.dll
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\bin\Debug\net7.0\BlogCore.Utilidades.pdb
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\BlogCore.Utilidades.csproj.AssemblyReference.cache
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\BlogCore.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\BlogCore.Utilidades.AssemblyInfoInputs.cache
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\BlogCore.Utilidades.AssemblyInfo.cs
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\BlogCore.Utilidades.csproj.CoreCompileInputs.cache
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\BlogCore.Utilidades.dll
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\refint\BlogCore.Utilidades.dll
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\BlogCore.Utilidades.pdb
+C:\dev1\aspnetentityframework\BlogCore\BlogCore.Utilidades\obj\Debug\net7.0\ref\BlogCore.Utilidades.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8BbMh30hJsKGAeLAzpmaapsQl/hULboJarkK/MDE3aXpgtyKrvzCGcA4et/rE+m9VZwYzaEiLknM/KxaZj4igA==",
+  "dgSpecHash": "t+dhsrZe0uPaN6H68sw6Y2Lz2boE6WzPOOOwVWh7OwjUkiQmfsa8uYEt8hGDqnIWAzTnntahj/dycW1Qqk9omg==",
   "success": true,
-  "projectFilePath": "C:\\dev1\\aspnetentityframework\\aspnetentityframework\\BlogCore\\BlogCore.Models\\BlogCore.Models.csproj",
+  "projectFilePath": "C:\\dev1\\aspnetentityframework\\BlogCore\\BlogCore.Models\\BlogCore.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jmunoz\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\jmunoz\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
