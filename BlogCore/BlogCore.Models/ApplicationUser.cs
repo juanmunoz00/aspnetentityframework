@@ -16,7 +16,7 @@ namespace BlogCore.Models
 
         // Dirección
         [Required(ErrorMessage = "La dirección es obligatoria")]
-        public string Dirección { get; set; }
+        public string Direccion { get; set; }
 
         // Ciudad
         [Required(ErrorMessage = "La ciudad es obligatoria")]

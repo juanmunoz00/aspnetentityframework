@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZG4niB00xiYYxl2lIENFoX/G5s9DJGV83VfolsxUz4c=",
+  "Hash": "Z0WjhP1JzoF4deEho0aRXK8bB+0jwe+9ASKNaswzUyE=",
   "Source": "BlogCore",
   "BasePath": "_content/BlogCore",
   "Mode": "Default",
@@ -236,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\b9d9c1f1-1096-453e-ad0a-783fc1cd4a3b.png"
+    },
+    {
+      "Identity": "C:\\dev1\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\d45aacff-79a0-41cc-b37e-fc4a5d2ff75d.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev1\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "imagenes/articulos/d45aacff-79a0-41cc-b37e-fc4a5d2ff75d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\d45aacff-79a0-41cc-b37e-fc4a5d2ff75d.jpg"
     },
     {
       "Identity": "C:\\dev1\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\sliders\\079a5b0b-7562-4317-bb40-502c6afdbeed.png",

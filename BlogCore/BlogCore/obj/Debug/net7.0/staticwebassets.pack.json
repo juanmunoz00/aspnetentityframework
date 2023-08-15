@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\imagenes\\articulos\\b9d9c1f1-1096-453e-ad0a-783fc1cd4a3b.png"
     },
     {
+      "Id": "C:\\dev1\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\articulos\\d45aacff-79a0-41cc-b37e-fc4a5d2ff75d.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\articulos\\d45aacff-79a0-41cc-b37e-fc4a5d2ff75d.jpg"
+    },
+    {
       "Id": "C:\\dev1\\aspnetentityframework\\BlogCore\\BlogCore\\wwwroot\\imagenes\\sliders\\079a5b0b-7562-4317-bb40-502c6afdbeed.png",
       "PackagePath": "staticwebassets\\imagenes\\sliders\\079a5b0b-7562-4317-bb40-502c6afdbeed.png"
     },
