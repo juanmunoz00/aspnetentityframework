@@ -1,4 +1,5 @@
 ﻿@page
+@using BlogCore.Utilidades
 @model RegisterModel
 @{
     ViewData["Title"] = "Registro de usuarios";
@@ -12,6 +13,18 @@
             <h2>Registrar nuevo usuario.</h2>
             <hr />
             <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+            <!-- Rol -->
+            <div class="form-group row">
+                <div class="col-6"><h4>Seleccionar Rol de Usuario</h4></div>
+                <div class="col-5">
+                    <input type="radio" name="radUsuarioRole" value="@CNT.Admin" />@CNT.Admin
+                    <input type="radio" name="radUsuarioRole" value="@CNT.Usuario" />@CNT.Usuario
+                </div>"
+            </div>
+
+            &nbsp;
+            &nbsp;
 
             <!-- Nombre -->
             <div class="form-floating mb-3">
@@ -59,7 +72,7 @@
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Registrar Usuario</button>
         </form>
     </div>
-    <div class="col-md-6 col-md-offset-2">
+    @*<div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to register.</h3>
             <hr />
@@ -88,7 +101,7 @@
                 }
             }
         </section>
-    </div>
+    </div>*@
 </div>
 
 @section Scripts {
